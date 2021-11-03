@@ -13,22 +13,21 @@ class ViewController: UIViewController {
     @IBOutlet weak var label: UILabel!
     
     var number = 0
-    var round = 0
+    var round = 1
     var points = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        print("viewDidload")
+        
+        number = Int.random(in: 1...50)
+        label.text = String(number)
     }
     @IBAction func checkNumber() {
-        if round == 0 {
-            number = Int.random(in: 1...50)
-            label.text = String(number)
-            round = 1
-        } else {
-            let numSlider = Int(slider.value.rounded())
+    
+            let numSlider = Int(slider.value)
             if numSlider > number {
-                points += 50 - numSlider - number
+                points += 50 - numSlider + number
             } else if numSlider < number {
                 points += 50 - number + numSlider
             } else {
@@ -48,5 +47,4 @@ class ViewController: UIViewController {
         }
     }
 
-}
 
