@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC5863E0273692E5003FD7E5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5863DF273692E5003FD7E5 /* Model.swift */; };
 		DCA8DEC0273282BD0091551B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA8DEBF273282BD0091551B /* AppDelegate.swift */; };
 		DCA8DEC2273282BD0091551B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA8DEC1273282BD0091551B /* SceneDelegate.swift */; };
 		DCA8DEC4273282BD0091551B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA8DEC3273282BD0091551B /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC5863DF273692E5003FD7E5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		DCA8DEBC273282BD0091551B /* Right on target1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Right on target1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA8DEBF273282BD0091551B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCA8DEC1273282BD0091551B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC5863DB2736929F003FD7E5 /* Model1 */ = {
+			isa = PBXGroup;
+			children = (
+				DC5863DF273692E5003FD7E5 /* Model.swift */,
+			);
+			path = Model1;
+			sourceTree = "<group>";
+		};
 		DCA8DEB3273282BD0091551B = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		DCA8DEBE273282BD0091551B /* Right on target1 */ = {
 			isa = PBXGroup;
 			children = (
+				DC5863DB2736929F003FD7E5 /* Model1 */,
 				DCA8DEBF273282BD0091551B /* AppDelegate.swift */,
 				DCA8DEC1273282BD0091551B /* SceneDelegate.swift */,
 				DCA8DEC3273282BD0091551B /* ViewController.swift */,
@@ -140,6 +151,7 @@
 				DCA8DEC4273282BD0091551B /* ViewController.swift in Sources */,
 				DCA8DEC0273282BD0091551B /* AppDelegate.swift in Sources */,
 				DCA8DEC2273282BD0091551B /* SceneDelegate.swift in Sources */,
+				DC5863E0273692E5003FD7E5 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +305,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "SergeyMedvedev.Right-on-target1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -313,7 +325,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "SergeyMedvedev.Right-on-target1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
