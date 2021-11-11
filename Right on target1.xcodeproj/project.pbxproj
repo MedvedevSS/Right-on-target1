@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC5863E0273692E5003FD7E5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5863DF273692E5003FD7E5 /* Model.swift */; };
+		DC4C6DDF2737E5BC00B779F7 /* Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4C6DDE2737E5BC00B779F7 /* Generator.swift */; };
+		DC4C6DE22737E5D300B779F7 /* GameRound.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4C6DE12737E5D300B779F7 /* GameRound.swift */; };
+		DC5863E0273692E5003FD7E5 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5863DF273692E5003FD7E5 /* Game.swift */; };
 		DCA8DEC0273282BD0091551B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA8DEBF273282BD0091551B /* AppDelegate.swift */; };
 		DCA8DEC2273282BD0091551B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA8DEC1273282BD0091551B /* SceneDelegate.swift */; };
 		DCA8DEC4273282BD0091551B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA8DEC3273282BD0091551B /* ViewController.swift */; };
@@ -17,7 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DC5863DF273692E5003FD7E5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DC4C6DDE2737E5BC00B779F7 /* Generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Generator.swift; sourceTree = "<group>"; };
+		DC4C6DE12737E5D300B779F7 /* GameRound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRound.swift; sourceTree = "<group>"; };
+		DC5863DF273692E5003FD7E5 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		DCA8DEBC273282BD0091551B /* Right on target1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Right on target1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCA8DEBF273282BD0091551B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCA8DEC1273282BD0091551B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,7 +46,9 @@
 		DC5863DB2736929F003FD7E5 /* Model1 */ = {
 			isa = PBXGroup;
 			children = (
-				DC5863DF273692E5003FD7E5 /* Model.swift */,
+				DC5863DF273692E5003FD7E5 /* Game.swift */,
+				DC4C6DDE2737E5BC00B779F7 /* Generator.swift */,
+				DC4C6DE12737E5D300B779F7 /* GameRound.swift */,
 			);
 			path = Model1;
 			sourceTree = "<group>";
@@ -150,8 +156,10 @@
 			files = (
 				DCA8DEC4273282BD0091551B /* ViewController.swift in Sources */,
 				DCA8DEC0273282BD0091551B /* AppDelegate.swift in Sources */,
+				DC4C6DDF2737E5BC00B779F7 /* Generator.swift in Sources */,
 				DCA8DEC2273282BD0091551B /* SceneDelegate.swift in Sources */,
-				DC5863E0273692E5003FD7E5 /* Model.swift in Sources */,
+				DC4C6DE22737E5D300B779F7 /* GameRound.swift in Sources */,
+				DC5863E0273692E5003FD7E5 /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,7 +313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "SergeyMedvedev.Right-on-target1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -325,7 +333,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "SergeyMedvedev.Right-on-target1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
